@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creatpages</title>
+    <meta name="google-site-verification" content="Vl-Q8qXxfw0Z-rGZLa3lDe_cyG6E6Fa8DdlfBYMapTU" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8587042219787939"
+    crossorigin="anonymous"></script>
+    <meta name="google-adsense-account" content="ca-pub-8587042219787939">
+      <link rel="icon" type="image/x-icon" href="favicon.ico">
+            <link rel="icon" type="image/x-icon" href="favicon.jpg">
+                  <link rel="icon" type="image/x-icon" href="favicon.png">
+                        <link rel="icon" type="image/x-icon" href="favicon.webp">
+    <link rel="stylesheet" href="styles.css">
+<style type="text/css">
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+section {
+    padding: 50px;
+    height: 100vh;
+    transition: background-color 0.5s ease;
+}
+
+#about {
+    background-color: #f4f4f4;
+}
+
+#services {
+    background-color: #e2e2e2;
+}
+
+#contact {
+    background-color: #d0d0d0;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to creatpages</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We create stunning web pages.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>Web design, development, and more.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch for your next project.</p>
+    </section>
+    <script src="script.js"></script>
+    
+    <script type="text/javascript">
+    document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+    behavior: 'smooth'
+    });
+    });
+    });
+    
+    </script>
+</body>
+</html>
