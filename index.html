@@ -12,6 +12,29 @@
             <link rel="icon" type="image/x-icon" href="favicon.jpg">
                   <link rel="icon" type="image/x-icon" href="favicon.png">
                         <link rel="icon" type="image/x-icon" href="favicon.webp">
+   <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDfY5Uak6kEuRLh6Q3ovTMoUx2JfzyvncM",
+    authDomain: "cereatpages-1.firebaseapp.com",
+    projectId: "cereatpages-1",
+    storageBucket: "cereatpages-1.firebasestorage.app",
+    messagingSenderId: "971329782403",
+    appId: "1:971329782403:web:15caed843694fcdb4dd1b6",
+    measurementId: "G-TC9FW46K2K"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
     <link rel="stylesheet" href="styles.css">
 <style type="text/css">
 body {
