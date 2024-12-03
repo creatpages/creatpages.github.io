@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "971329782403",
+    "project_id": "cereatpages-1",
+    "storage_bucket": "cereatpages-1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971329782403:android:992a2d1c851345514dd1b6",
+        "android_client_info": {
+          "package_name": "com.sd.freeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaOk9mNoic64ETHKn5-52XiVVBAn5KKuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
